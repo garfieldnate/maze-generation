@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 88cb30a15ec22bbda55b673bc5631a07403ea9dda06347604d65d44f380a9d59
+-- hash: 6a4aebebef132789d8361f9f01b227d3dec12b101a664bac089f4424e00af0ea
 
 name:           maze-generation
 version:        0.1.0.0
@@ -28,7 +28,6 @@ source-repository head
 library
   exposed-modules:
       Lib
-      Throwaway
   other-modules:
       Paths_maze_generation
   hs-source-dirs:
