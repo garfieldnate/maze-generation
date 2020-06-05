@@ -23,3 +23,5 @@ I find that one pretty shameful, honestly. It's strange, I had expected a langua
 The basic IO functions like `read` throwing exceptions is also weird to me; maybe it's historical baggage from before they figured out the IO monad? The community knows that you should always use `Text.Read`'s `readMaybe` instead; `read` should be marked deprecated and warnings should be generated for its usage.
 
 - if you get `cannot satisfy -package-id <project name>`, close VS Code, run `stack build`, and restart VS Code. If that doesn't work, adding a YAML file should fix it: https://github.com/haskell/haskell-ide-engine/issues/1616
+
+- really wish that datatypes with named fields didn't still require positional arguments
